@@ -1,0 +1,29 @@
+{
+  "name": "chaitanya-gupta-portfolio",
+  "version": "1.0.0",
+  "description": "Chaitanya Gupta's developer portfolio - Computer Science student and AI/ML enthusiast",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --host=0.0.0.0 --port=3000 --open=/",
+    "dev": "live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "monospace",
+    "static-site",
+    "responsive"
+  ],
+  "author": "Chaitanya Gupta",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgrkz/portfolio.git"
+  },
+  "homepage": "https://cgrkz.github.io/portfolio"
+}
